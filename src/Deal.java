@@ -3,12 +3,6 @@
  */
 public class Deal {
     private int id;
-    private String date;
-    private String status;
-    private Seller seller;
-    private Buyer buyer;
-    private Agent agent;
-    private Bank bank;
     
     public Deal(int id, String date) {
         this.id = id;
