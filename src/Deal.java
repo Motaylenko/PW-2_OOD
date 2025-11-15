@@ -16,7 +16,7 @@ public class Deal {
         this.status = "Нова";
     }
     
-    public void confirm() 
+    public void confirm() {
         System.out.println("Угода #" + id + " підтверджена");
         this.status = "Підтверджена";
     }
